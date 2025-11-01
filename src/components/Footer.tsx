@@ -25,10 +25,18 @@ export default function Footer() {
           <div>
             <h4 className="font-semibold mb-4">Quick Links</h4>
             <div className="space-y-2">
-              <Link to="/" className="block text-gray-400 hover:text-white transition-colors">Home</Link>
-              <Link to="/about" className="block text-gray-400 hover:text-white transition-colors">About Us</Link>
-              <Link to="/products" className="block text-gray-400 hover:text-white transition-colors">Products</Link>
-              <Link to="/contact" className="block text-gray-400 hover:text-white transition-colors">Contact</Link>
+              <Link to="/" className="[&.active]:font-medium block text-gray-400 hover:text-white transition-colors">
+                Home
+              </Link>
+              <Link to="/about" className="[&.active]:font-medium block text-gray-400 hover:text-white transition-colors">
+                About Us
+              </Link>
+              <Link to="/products" className="[&.active]:font-medium block text-gray-400 hover:text-white transition-colors">
+                Products
+              </Link>
+              <Link to="/contact" className="[&.active]:font-medium block text-gray-400 hover:text-white transition-colors">
+                Contact
+              </Link>
             </div>
           </div>
 

@@ -67,17 +67,19 @@ export default function Products() {
                 </CardDescription>
               </CardHeader>
               <CardContent>
-                <Button variant="ghost" className="group-hover:text-blue-600 p-0 h-auto font-medium">
-                  Learn More
-                  <ArrowRight className="ml-2 w-4 h-4 group-hover:translate-x-1 transition-transform" />
-                </Button>
+                <Link to="/products" className="[&.active]:font-medium">
+                  <Button variant="ghost" className="group-hover:text-blue-600 p-0 h-auto font-medium">
+                    Learn More
+                    <ArrowRight className="ml-2 w-4 h-4 group-hover:translate-x-1 transition-transform" />
+                  </Button>
+                </Link>
               </CardContent>
             </Card>
           ))}
         </div>
 
         <div className="text-center mt-12">
-          <Link to="/products">
+          <Link to="/products" className="[&.active]:font-medium">
             <Button size="lg" className="bg-blue-600 hover:bg-blue-700">
               View All Products
               <ArrowRight className="ml-2 w-5 h-5" />

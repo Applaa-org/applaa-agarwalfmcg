@@ -22,13 +22,13 @@ export default function Hero() {
             </div>
 
             <div className="flex flex-col sm:flex-row gap-4">
-              <Link to="/products">
+              <Link to="/products" className="[&.active]:font-medium">
                 <Button size="lg" className="bg-blue-600 hover:bg-blue-700 text-white px-8">
                   Explore Products
                   <ArrowRight className="ml-2 w-5 h-5" />
                 </Button>
               </Link>
-              <Link to="/contact">
+              <Link to="/contact" className="[&.active]:font-medium">
                 <Button size="lg" variant="outline" className="border-blue-600 text-blue-600 hover:bg-blue-50">
                   Get In Touch
                 </Button>

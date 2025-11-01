@@ -15,7 +15,7 @@ export default function ContactCTA() {
               </h2>
               <p className="text-xl text-gray-300 leading-relaxed">
                 Partner with Agarwal Trading International LLP for reliable, efficient, and profitable 
-                international trade solutions. Let's connect yourbusiness to global markets.
+                international trade solutions. Let's connect your business to global markets.
               </p>
             </div>
 
@@ -34,7 +34,7 @@ export default function ContactCTA() {
               </div>
             </div>
 
-            <Link to="/contact">
+            <Link to="/contact" className="[&.active]:font-medium">
               <Button size="lg" className="bg-blue-600 hover:bg-blue-700 text-white">
                 Start Trading with Us
                 <ArrowRight className="ml-2 w-5 h-5" />
